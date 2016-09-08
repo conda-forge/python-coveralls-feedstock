@@ -1,4 +1,4 @@
-{% set version = "2.6.0" %}
+{% set version = "2.7.0" %}
 
 package:
   name: python-coveralls
@@ -7,7 +7,7 @@ package:
 source:
   fn: python-coveralls-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/python-coveralls/python-coveralls-{{ version }}.tar.gz
-  sha256: c0c9b246129bdf4c2e0f4a1b31962bb043b73030aa7a23f711561c1f6da8b0a5
+  sha256: c6ed5c665051e87fdf6ad597c547ab69d14eecfcd22d8c2ed73d3faf249304c5
 
 build:
   number: 0
