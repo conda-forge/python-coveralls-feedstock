@@ -20,11 +20,6 @@ requirements:
   build:
     - python
     - setuptools
-    - pyyaml
-    - requests
-    - coverage ==3.7.1
-    - six
-    - sh
 
   run:
     - python
