@@ -33,7 +33,6 @@ conda search python-coveralls --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
