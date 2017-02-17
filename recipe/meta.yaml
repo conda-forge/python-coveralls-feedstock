@@ -1,4 +1,4 @@
-{% set version = "2.7.0" %}
+{% set version = "2.9.0" %}
 
 package:
   name: python-coveralls
@@ -7,7 +7,7 @@ package:
 source:
   fn: python-coveralls-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/python-coveralls/python-coveralls-{{ version }}.tar.gz
-  sha256: c6ed5c665051e87fdf6ad597c547ab69d14eecfcd22d8c2ed73d3faf249304c5
+  sha256: e788324781eebbeae421ed15cdf8ae246c94a36bc382572b498526d193eb828e
 
 build:
   number: 0
@@ -27,7 +27,6 @@ requirements:
     - requests
     - coverage ==4.0.3
     - six
-    - sh
 
 test:
   imports:
@@ -39,6 +38,7 @@ test:
 about:
   home: http://github.com/z4r/python-coveralls
   license: Apache 2.0
+  license_file: LICENSE
   summary: 'Python interface to coveralls.io API\n'
 
 extra:
