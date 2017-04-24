@@ -11,6 +11,18 @@ Summary: Python interface to coveralls.io API\n
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-coveralls-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-coveralls-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-coveralls-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-coveralls-feedstock)
+Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-coveralls/badges/version.svg)](https://anaconda.org/conda-forge/python-coveralls)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-coveralls/badges/downloads.svg)](https://anaconda.org/conda-forge/python-coveralls)
+
 Installing python-coveralls
 ===========================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-coveralls-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-coveralls-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-coveralls-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-coveralls-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-coveralls/badges/version.svg)](https://anaconda.org/conda-forge/python-coveralls)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-coveralls/badges/downloads.svg)](https://anaconda.org/conda-forge/python-coveralls)
 
 
 Updating python-coveralls-feedstock
