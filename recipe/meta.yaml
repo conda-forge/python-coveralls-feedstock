@@ -25,7 +25,7 @@ requirements:
     - python
     - pyyaml
     - requests
-    - coverage ==4.0.3
+    - coverage
     - six
 
 test:
