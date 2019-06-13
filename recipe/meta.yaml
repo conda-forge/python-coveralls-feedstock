@@ -1,4 +1,4 @@
-{% set version = "2.9.1" %}
+{% set version = "2.9.2" %}
 
 package:
   name: python-coveralls
@@ -7,10 +7,10 @@ package:
 source:
   fn: python-coveralls-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/python-coveralls/python-coveralls-{{ version }}.tar.gz
-  sha256: 736dda01f64beda240e1500d5f264b969495b05fcb325c7c0eb7ebbfd1210b70
+  sha256: 38a8c55849308b136f9b831e7ac972f9b6d0068d0087cd75dc147ac6a0e8e360
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -25,7 +25,7 @@ requirements:
     - python
     - pyyaml
     - requests
-    - coverage ==4.0.3
+    - coverage
     - six
 
 test:
