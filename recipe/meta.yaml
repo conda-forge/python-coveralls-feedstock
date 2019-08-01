@@ -1,4 +1,4 @@
-{% set version = "2.9.2" %}
+{% set version = "2.9.3" %}
 
 package:
   name: python-coveralls
@@ -7,7 +7,7 @@ package:
 source:
   fn: python-coveralls-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/python-coveralls/python-coveralls-{{ version }}.tar.gz
-  sha256: 38a8c55849308b136f9b831e7ac972f9b6d0068d0087cd75dc147ac6a0e8e360
+  sha256: bfaf7811e7dc5628e83b6b162962a4e2485dbff184b30e49f380374ed1bcee55
 
 build:
   number: 0
