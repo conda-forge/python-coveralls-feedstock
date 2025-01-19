@@ -6,29 +6,31 @@ package:
 
 source:
   fn: python-coveralls-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/python-coveralls/python-coveralls-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/python-coveralls/python-coveralls-{{ version }}.tar.gz
   sha256: bfaf7811e7dc5628e83b6b162962a4e2485dbff184b30e49f380374ed1bcee55
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - coveralls = coveralls:wear
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - pip
 
   run:
-    - python
+    - python >={{ python_min }}
     - pyyaml
     - requests
     - coverage
     - six
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - coveralls
 
